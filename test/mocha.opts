@@ -1,0 +1,7 @@
+--recursive
+--require env-test
+--require @babel/register
+--timeout 5000
+--reporter mocha-multi-reporters
+--reporter-options configFile=test/reporters.json
+--exit

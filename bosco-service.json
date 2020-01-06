@@ -1,0 +1,7 @@
+{
+    "tags": [],
+    "service": {
+        "name": "app-todo",
+        "dependsOn": ["infra-mongodb"]
+    }
+}

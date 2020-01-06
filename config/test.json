@@ -1,0 +1,16 @@
+{
+    "server": {
+        "port": 16005
+    },
+    "mongo": {
+      "server": {
+        "replicaSet": ""
+      },
+      "auth": {
+        "username": "",
+        "password": "",
+        "database": "example-test",
+        "hostname": "local.tescloud.com"
+      }
+  }
+}

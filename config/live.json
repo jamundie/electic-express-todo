@@ -1,0 +1,10 @@
+{
+  "server": {
+    "errors": {
+        "includeStackTrace": false
+    }
+  },
+  "CF_additionalFiles": [
+    "/etc/decrypted-config/config.json"
+  ]
+}
