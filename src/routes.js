@@ -5,8 +5,8 @@ const logRequest = logger.middleware();
 
 export default ({ app, config, metrics, mongodb, refdata }) => {
   const controller = controllerCtor({ config, metrics, mongodb, refdata });
-  app.get('/api/example', controller.read);
-  app.post('/api/example/error', controller.create);
+  app.get('/api/todos', controller.read);
+  app.post('/api/todo', controller.create);
 
   app.use(logRequest);
 };

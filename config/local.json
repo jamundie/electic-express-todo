@@ -2,6 +2,11 @@
   "mongo": {
     "server": {
       "replicaSet": ""
+    },
+    "auth": {
+      "username": "default",
+      "password": "",
+      "hostname": "local.tescloud.com"
     }
   }
 }

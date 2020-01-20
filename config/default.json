@@ -12,7 +12,7 @@
     "auth": {
       "username": "CHANGEME",
       "password": "CHANGEME",
-      "database": "CHANGEME",
+      "database": "todo_list_app",
       "hostname": "CHANGEME"
     }
   },

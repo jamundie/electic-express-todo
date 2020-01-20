@@ -2,6 +2,7 @@
     "tags": [],
     "service": {
         "name": "app-todo",
+        "username": "jmtestapp",
         "dependsOn": ["infra-mongodb"]
     }
 }
